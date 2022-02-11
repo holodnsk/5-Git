@@ -3,6 +3,5 @@ def check_simple(n):
         return True
     for i in range(2,n):
         if n%i==0:
-            print (n,i,n%i)
             return False
     return True
